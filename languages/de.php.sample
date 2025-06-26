@@ -1,29 +1,29 @@
 <?php
 $lang = [
-    'cvtitle' => 'Curriculum Vitae',
+    'cvtitle' => 'Lebenslauf',
     'myname' => 'Max Mustermann',
-    'mytitle' => 'Job Title',
-    'address' => 'Example Street 1, 12345 Sample City',
+    'mytitle' => 'Berufsbezeichnung',
+    'address' => 'Musterstraße 1, 12345 Musterstadt',
 
-    'contact_section' => 'Contact',
+    'contact_section' => 'Kontakt',
     'contact' => [
         'email' => [
-            'label' => 'Email',
+            'label' => 'E-Mail',
             'value' => 'max@mustermann.de',
             'href' => 'mailto:max@mustermann.de',
             'icon' => 'fas fa-envelope',
             'extended_only' => false,
         ],
         'phone' => [
-            'label' => 'Phone',
+            'label' => 'Telefon',
             'value' => '+49 123 4567890',
             'href' => 'tel:+491234567890',
             'icon' => 'fas fa-phone',
             'extended_only' => true,
         ],
         'address' => [
-            'label' => 'Address',
-            'value' => 'Example Street 1, 12345 Sample City',
+            'label' => 'Adresse',
+            'value' => 'Musterstraße 1, 12345 Musterstadt',
             'icon' => 'fas fa-map-marker-alt',
             'extended_only' => true,
         ],
@@ -50,79 +50,79 @@ $lang = [
         ],
     ],
 
-    'professional_section' => 'Professional Experience',
+    'professional_section' => 'Berufs&shyerfahrung',
     'jobs' => [
         2 => [
-            'title' => 'Sample Job Title',
-            'dates' => 'Since 01/2023',
-            'company' => 'Example Company Ltd.',
-            'location' => 'Sample City',
+            'title' => 'Jobtitel Beispiel',
+            'dates' => 'Seit 01/2023',
+            'company' => 'Musterfirma GmbH',
+            'location' => 'Musterstadt',
             'description' => [
-                'Sample task 1',
-                'Sample task 2',
-                'Sample task 3',
+                'Beispielhafte Tätigkeit 1',
+                'Beispielhafte Tätigkeit 2',
+                'Beispielhafte Tätigkeit 3',
             ],
         ],
         1 => [
-            'title' => 'Previous Position',
+            'title' => 'Vorherige Position',
             'dates' => '06/2020 – 12/2022',
-            'company' => 'Example Corp.',
-            'location' => 'Example Town',
+            'company' => 'Beispiel AG',
+            'location' => 'Beispielstadt',
             'description' => [
-                'Task A',
-                'Task B',
+                'Aufgabe A',
+                'Aufgabe B',
             ],
         ],
         0 => [
-            'title' => 'Working Student / Internship',
+            'title' => 'Werkstudent / Praktikum',
             'dates' => '03/2019 – 05/2020',
-            'company' => 'Company XYZ',
-            'location' => 'Somewhere',
+            'company' => 'Unternehmen XYZ',
+            'location' => 'Irgendwo',
             'description' => [
-                'Support in area X',
-                'Data analysis and reporting',
+                'Unterstützung im Bereich X',
+                'Datenanalyse und Reporting',
             ],
         ],
     ],
 
-    'education_section' => 'Education',
-    'show_courses' => 'Show courses',
+    'education_section' => 'Ausbildung',
+    'show_courses' => 'Kurse anzeigen',
     'education' => [
         1 => [
-            'degree' => 'M.Sc. Sample Degree',
+            'degree' => 'M.Sc. Musterabschluss',
             'dates' => '10/2021 – 09/2023',
-            'institution' => 'University of Sample City',
+            'institution' => 'Universität Musterstadt',
             'courses' => [
-                'Course 1 (3.7)',
-                'fav:Favourite Course (4.0)',
-                'Course 3 (3.0)',
+                'Kurs 1 (1,3)',
+                'fav:Lieblingskurs (1,0)',
+                'Kurs 3 (2,0)',
             ],
             'description' => [
-                'Final grade: Ø 3.5',
-                'Thesis topic: <em>Example topic on data analysis</em>',
-                'Received scholarship',
+                'Abschlussnote: Ø 1,5',
+                'Thema der Abschlussarbeit: <em>Beispielthema zur Datenanalyse</em>',
+                'Stipendium erhalten',
             ]
         ],
         0 => [
-            'degree' => 'B.Sc. Sample Course of Study',
+            'degree' => 'B.Sc. Beispielstudium',
             'dates' => '10/2017 – 09/2021',
-            'institution' => 'Sample University of Applied Sciences',
+            'institution' => 'Fachhochschule Beispiel',
             'courses' => [
-                'Introductory Course (3.0)',
-                'fav:Interdisciplinary Course (3.7)',
-                'Final Module (4.0)',
+                'Grundlagenkurs (2,0)',
+                'fav:Interdisziplinärer Kurs (1,3)',
+                'Abschlussmodul (1,0)',
             ],
             'description' => [
-                'Final grade: Ø 3.2',
-                'Active in student council',
+                'Abschlussnote: Ø 1,8',
+                'Engagement im Studierendenrat',
             ]
         ],
     ],
 
-    'skills_section' => 'Skills & Tools',
+    'skills_section' => 'Fähigkeiten & Tools',
     'skills' => [
         'tech' => [
-            'title' => 'Technologies',
+            'title' => 'Technologien',
             'icon' => 'fas fa-code',
             'items' => [
                 'HTML/CSS',
@@ -133,61 +133,61 @@ $lang = [
             ]
         ],
         'languages' => [
-            'title' => 'Languages',
+            'title' => 'Sprachen',
             'icon' => 'fas fa-language',
             'items' => [
-                'German (native)',
-                'English (C1)',
+                'Deutsch (Muttersprache)',
+                'Englisch (C1)',
             ]
         ],
         'soft' => [
             'title' => 'Soft Skills',
             'icon' => 'fas fa-users',
             'items' => [
-                'Teamwork',
-                'Self-responsibility',
-                'Creative thinking',
+                'Teamfähigkeit',
+                'Eigenverantwortung',
+                'Kreatives Denken',
             ]
         ],
         'licenses' => [
-            'title' => 'Driving Licences',
+            'title' => 'Führerscheine',
             'icon' => 'fas fa-car',
             'items' => [
-                'Class B',
+                'Klasse B',
             ]
         ],
         'interests' => [
-            'title' => 'Interests',
+            'title' => 'Interessen',
             'icon' => 'fas fa-heart',
             'items' => [
-                'Photography',
-                'Cooking',
-                'Learning languages',
+                'Fotografie',
+                'Kochen',
+                'Sprachen lernen',
             ]
         ],
     ],
 
-    'projects_section' => 'Projects',
+    'projects_section' => 'Projekte',
     'projects' => [
         'demo1' => [
-            'name' => 'Project Alpha',
-            'context' => 'University',
+            'name' => 'Projekt Alpha',
+            'context' => 'Uni',
             'url' => 'https://github.com/maxmustermann/projekt-alpha',
-            'description' => 'Web application for data visualisation',
+            'description' => 'Webanwendung zur Datenvisualisierung',
             'tech' => ['fab fa-js', 'fab fa-html5', 'fab fa-css3-alt']
         ],
         'demo2' => [
-            'name' => 'Project Beta',
-            'context' => 'Personal Project',
+            'name' => 'Projekt Beta',
+            'context' => 'Freizeitprojekt',
             'url' => 'https://github.com/maxmustermann/projekt-beta',
-            'description' => 'Blog platform with CMS functionality',
+            'description' => 'Blog-Plattform mit CMS-Funktionalität',
             'tech' => ['fab fa-php', 'fas fa-database']
         ],
         'demo3' => [
-            'name' => 'Project Gamma',
+            'name' => 'Projekt Gamma',
             'context' => 'Hackathon',
             'url' => 'https://github.com/maxmustermann/projekt-gamma',
-            'description' => 'AI-powered text classification',
+            'description' => 'KI-gestützte Textklassifikation',
             'tech' => ['fab fa-python']
         ]
     ],
