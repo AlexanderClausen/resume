@@ -1,0 +1,194 @@
+<?php
+$lang = [
+    'cvtitle' => 'Lebenslauf',
+    'myname' => 'Max Mustermann',
+    'mytitle' => 'Berufsbezeichnung',
+    'address' => 'Musterstraße 1, 12345 Musterstadt',
+
+    'contact_section' => 'Kontakt',
+    'contact' => [
+        'email' => [
+            'label' => 'E-Mail',
+            'value' => 'max@mustermann.de',
+            'href' => 'mailto:max@mustermann.de',
+            'icon' => 'fas fa-envelope',
+            'extended_only' => false,
+        ],
+        'phone' => [
+            'label' => 'Telefon',
+            'value' => '+49 123 4567890',
+            'href' => 'tel:+491234567890',
+            'icon' => 'fas fa-phone',
+            'extended_only' => true,
+        ],
+        'address' => [
+            'label' => 'Adresse',
+            'value' => 'Musterstraße 1, 12345 Musterstadt',
+            'icon' => 'fas fa-map-marker-alt',
+            'extended_only' => true,
+        ],
+        'website' => [
+            'label' => 'Website',
+            'value' => 'mustermann.dev',
+            'href' => 'https://mustermann.dev/',
+            'icon' => 'fas fa-globe',
+            'extended_only' => false,
+        ],
+        'linkedin' => [
+            'label' => 'LinkedIn',
+            'value' => '/in/maxmustermann',
+            'href' => 'https://www.linkedin.com/in/maxmustermann/',
+            'icon' => 'fab fa-linkedin',
+            'extended_only' => false,
+        ],
+        'github' => [
+            'label' => 'GitHub',
+            'value' => '/maxmustermann',
+            'href' => 'https://github.com/maxmustermann',
+            'icon' => 'fab fa-github',
+            'extended_only' => false,
+        ],
+    ],
+
+    'professional_section' => 'Berufs&shyerfahrung',
+    'jobs' => [
+        2 => [
+            'title' => 'Jobtitel Beispiel',
+            'dates' => 'Seit 01/2023',
+            'company' => 'Musterfirma GmbH',
+            'location' => 'Musterstadt',
+            'description' => [
+                'Beispielhafte Tätigkeit 1',
+                'Beispielhafte Tätigkeit 2',
+                'Beispielhafte Tätigkeit 3',
+            ],
+        ],
+        1 => [
+            'title' => 'Vorherige Position',
+            'dates' => '06/2020 – 12/2022',
+            'company' => 'Beispiel AG',
+            'location' => 'Beispielstadt',
+            'description' => [
+                'Aufgabe A',
+                'Aufgabe B',
+            ],
+        ],
+        0 => [
+            'title' => 'Werkstudent / Praktikum',
+            'dates' => '03/2019 – 05/2020',
+            'company' => 'Unternehmen XYZ',
+            'location' => 'Irgendwo',
+            'description' => [
+                'Unterstützung im Bereich X',
+                'Datenanalyse und Reporting',
+            ],
+        ],
+    ],
+
+    'education_section' => 'Ausbildung',
+    'show_courses' => 'Kurse anzeigen',
+    'education' => [
+        1 => [
+            'degree' => 'M.Sc. Musterabschluss',
+            'dates' => '10/2021 – 09/2023',
+            'institution' => 'Universität Musterstadt',
+            'courses' => [
+                'Kurs 1 (1,3)',
+                'fav:Lieblingskurs (1,0)',
+                'Kurs 3 (2,0)',
+            ],
+            'description' => [
+                'Abschlussnote: Ø 1,5',
+                'Thema der Abschlussarbeit: <em>Beispielthema zur Datenanalyse</em>',
+                'Stipendium erhalten',
+            ]
+        ],
+        0 => [
+            'degree' => 'B.Sc. Beispielstudium',
+            'dates' => '10/2017 – 09/2021',
+            'institution' => 'Fachhochschule Beispiel',
+            'courses' => [
+                'Grundlagenkurs (2,0)',
+                'fav:Interdisziplinärer Kurs (1,3)',
+                'Abschlussmodul (1,0)',
+            ],
+            'description' => [
+                'Abschlussnote: Ø 1,8',
+                'Engagement im Studierendenrat',
+            ]
+        ],
+    ],
+
+    'skills_section' => 'Fähigkeiten & Tools',
+    'skills' => [
+        'tech' => [
+            'title' => 'Technologien',
+            'icon' => 'fas fa-code',
+            'items' => [
+                'HTML/CSS',
+                'JavaScript',
+                'PHP',
+                'Python',
+                'SQL',
+            ]
+        ],
+        'languages' => [
+            'title' => 'Sprachen',
+            'icon' => 'fas fa-language',
+            'items' => [
+                'Deutsch (Muttersprache)',
+                'Englisch (C1)',
+            ]
+        ],
+        'soft' => [
+            'title' => 'Soft Skills',
+            'icon' => 'fas fa-users',
+            'items' => [
+                'Teamfähigkeit',
+                'Eigenverantwortung',
+                'Kreatives Denken',
+            ]
+        ],
+        'licenses' => [
+            'title' => 'Führerscheine',
+            'icon' => 'fas fa-car',
+            'items' => [
+                'Klasse B',
+            ]
+        ],
+        'interests' => [
+            'title' => 'Interessen',
+            'icon' => 'fas fa-heart',
+            'items' => [
+                'Fotografie',
+                'Kochen',
+                'Sprachen lernen',
+            ]
+        ],
+    ],
+
+    'projects_section' => 'Projekte',
+    'projects' => [
+        'demo1' => [
+            'name' => 'Projekt Alpha',
+            'context' => 'Uni',
+            'url' => 'https://github.com/maxmustermann/projekt-alpha',
+            'description' => 'Webanwendung zur Datenvisualisierung',
+            'tech' => ['fab fa-js', 'fab fa-html5', 'fab fa-css3-alt']
+        ],
+        'demo2' => [
+            'name' => 'Projekt Beta',
+            'context' => 'Freizeitprojekt',
+            'url' => 'https://github.com/maxmustermann/projekt-beta',
+            'description' => 'Blog-Plattform mit CMS-Funktionalität',
+            'tech' => ['fab fa-php', 'fas fa-database']
+        ],
+        'demo3' => [
+            'name' => 'Projekt Gamma',
+            'context' => 'Hackathon',
+            'url' => 'https://github.com/maxmustermann/projekt-gamma',
+            'description' => 'KI-gestützte Textklassifikation',
+            'tech' => ['fab fa-python']
+        ]
+    ],
+];
